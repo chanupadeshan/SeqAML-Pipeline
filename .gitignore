@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Secrets / environment variables
+.env
+.env.*
+*.env
+
+# Data and generated artifacts
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+mlruns/
+artifacts/
+
+# Model files / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.joblib
+*.onnx
+
+# Logs
+*.log
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+
+# Notebook and editor state
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.DS_Store
