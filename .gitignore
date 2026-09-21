@@ -16,8 +16,16 @@ env/
 # Data and generated artifacts
 data/raw/*
 data/processed/*
+
+# Keep folder structure
 !data/raw/.gitkeep
 !data/processed/.gitkeep
+
+# Keep DVC metadata in Git
+!data/raw/*.dvc
+!data/processed/*.dvc
+
+# Generated experiment artifacts
 mlruns/
 artifacts/
 
