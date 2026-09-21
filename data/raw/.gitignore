@@ -2,3 +2,4 @@
 data/raw/*
 !data/raw/.gitkeep
 !data/raw/*.dvc
+/HI-Medium_Patterns.txt
