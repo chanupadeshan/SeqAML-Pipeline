@@ -1,0 +1,3 @@
+['remote "origin-dagshub"']
+    url = s3://dvc
+    endpointurl = https://dagshub.com/chanupadeshan/SeqAML-Pipeline.s3
